@@ -1,0 +1,110 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <servlet>
+  	<servlet-name>AdminLoginServlet</servlet-name>
+  	<display-name>AdminLoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.controller.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginAdminServlet</servlet-name>
+  	<display-name>LoginAdminServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.controller.LoginAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginUserServlet</servlet-name>
+  	<display-name>LoginUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.controller.LoginUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterUserServlet</servlet-name>
+  	<display-name>RegisterUserServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.controller.RegisterUserServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ViewUsersServlet</servlet-name>
+  	<display-name>ViewUsersServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.controller.ViewUsersServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserLoginServlet</servlet-name>
+  	<display-name>UserLoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.controller.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<display-name>LoginServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.controller.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<display-name>RegisterServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.controller.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ReserveServlet</servlet-name>
+  	<display-name>ReserveServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.controller.ReserveServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<display-name>UpdateServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.revature.controller.UpdateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdminLoginServlet</servlet-name>
+  	<url-pattern>/AdminLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginAdminServlet</servlet-name>
+  	<url-pattern>/LoginAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginUserServlet</servlet-name>
+  	<url-pattern>/LoginUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterUserServlet</servlet-name>
+  	<url-pattern>/RegisterUserServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ViewUsersServlet</servlet-name>
+  	<url-pattern>/ViewUsersServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserLoginServlet</servlet-name>
+  	<url-pattern>/UserLoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>LoginServlet</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RegisterServlet</servlet-name>
+  	<url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ReserveServlet</servlet-name>
+  	<url-pattern>/ReserveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateServlet</servlet-name>
+  	<url-pattern>/UpdateServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
